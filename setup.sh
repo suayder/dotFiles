@@ -36,3 +36,8 @@ sed -i "\$abindsym \$mod+p exec \"wal -i /usr/share/backgrounds/\"" ~/.i3/config
 sed -i "\$a#auto start red-shift\nexec --no-startup-id redshift-gtk &" ~/.i3/config
 
 sed -i "\$afeh --bg-max --randomize /usr/share/backgrounds/* &" ~/.xinitrc
+
+echo "Install anaconda 5..."
+wget http://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
+sh Anaconda3-5.0.0-Linux-x86_64.sh
+rm Anaconda3-5.0.0-Linux-x86_64.sh
