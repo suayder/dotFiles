@@ -41,3 +41,5 @@ echo "Install anaconda 5..."
 wget http://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
 sh Anaconda3-5.0.0-Linux-x86_64.sh
 rm Anaconda3-5.0.0-Linux-x86_64.sh
+
+yay -S google-cloud-sdk
